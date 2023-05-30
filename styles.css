@@ -1,0 +1,40 @@
+.main-heading{
+    text-align: center;
+}
+
+.input-section{
+    text-align: center;
+    font-size: large;
+}
+
+input {
+    font-size: large;
+}
+
+button {
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.action {
+    text-align: center;
+    padding-top: 2%;
+}
+
+.luhns-output{
+    display: flex;
+    justify-content: center;
+    padding-top: 20%;
+    
+}
+
+section{
+    padding-left: 2%;
+    padding-right: 2%;
+    border-right: 1px solid black;
+    border: 1px solid black;
+    margin-left: 2%;
+    margin-right: 2%;
+    
+}
