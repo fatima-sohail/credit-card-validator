@@ -1,5 +1,7 @@
 let ccInput = '';
-document.addEventListener("DOMContentLoaded", function(){
+
+//everytime DOmContentLoaded occurs, callback func will execute
+document.addEventListener("DOMContentLoaded", function(){ 
     var nextButtonRef = document.getElementById('nextState')
     nextButtonRef.disabled = true;
 })
@@ -9,7 +11,10 @@ function clearInputBox(){
     inputBoxRef.value = ''
 }
 
-
+function next(){
+    //everytime next is clicked, we need to show a next character starting from the right/end
+    
+}
 
 
 function validateCC (){
