@@ -8,18 +8,18 @@
 }
 
 input {
-    font-size: large;
+    font-size: x-large;
 }
 
 button {
-    font-size: large;
+    font-size: x-large;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
 }
 
 .action {
     text-align: center;
-    padding-top: 2%;
+    padding-top: 10%;
 }
 
 .luhns-output{

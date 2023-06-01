@@ -13,14 +13,45 @@ function clearInputBox(){
 
 function next(){
     //everytime next is clicked, we need to show a next character starting from the right/end
-    
+    var luhnsOutputContainerRef = document.getElementById("luhns-output")
+
+    var section = document.createElement("section");
+    section.innerHTML = "section";
+
+    luhnsOutputContainerRef.appendChild(section)
 }
+// document.addEventListener("DOMContentLoaded", function(){
+//     var luhnsOutputContainerRef = document.getElementById("luhns-output");
+//     var nextButton = document.getElementById("nextState")
+
+//     nextButton.addEventListener("click", function(){
+//         createMultipleSections()
+//     })
+// })
+
+// //function to create multiple sections
+// function createMultipleSections(){
+//     //define number of sections to create
+//     let numSections = 5
+//     //generate multiple sections in reverse loop
+//     for(let i =numSections-1; i=>0; i--){
+//         var section = document.getElementById("section")
+//         section.innerHTML = "section" +  (i + 1);
+
+//         luhnsOutputContainerRef.appendChild(section)
+
+//     };
+// }
 
 
 function validateCC (){
     let ccInputRef = document.getElementById('inputId')
     ccInput = ccInputRef.value 
     console.log(ccInput)
+
+    var nextButtonRef = document.getElementById('nextState')
+    nextButtonRef.disabled = false;
+
 }
 
 
